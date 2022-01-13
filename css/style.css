@@ -27,13 +27,99 @@
 /*	01) SHANE BASE
 /*---------------------------------------------------*/
 
-
+.facts {
+	padding-bottom: 30px;
+  }
+  
+  .facts .count-box {
+	padding: 30px;
+	width: 100%;
+  }
+  
+  .facts .count-box i {
+	display: block;
+	font-size: 44px;
+	color: #cfa586;
+	float: left;
+	line-height: 0;
+  }
+  
+  .facts .count-box span {
+	font-size: 48px;
+	line-height: 40px;
+	display: block;
+	font-weight: 700;
+	color: #050d18;
+	margin-left: 60px;
+  }
+  
+  .facts .count-box p {
+	padding: 15px 0 0 0;
+	margin: 0 0 0 60px;
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+	color: #122f57;
+  }
+  
+  .facts .count-box a {
+	font-weight: 600;
+	display: block;
+	margin-top: 20px;
+	color: #122f57;
+	font-size: 15px;
+	font-family: "Poppins", sans-serif;
+	transition: ease-in-out 0.3s;
+  }
+  
+  .facts .count-box a:hover {
+	color: #1f5297;
+  }
+  
+  /*--------------------------------------------------------------
+  # Akills
+  --------------------------------------------------------------*/
+  .skills .progress {
+	height: 60px;
+	display: block;
+	background: none;
+	border-radius: 0;
+  }
+  
+  .skills .progress .skill {
+	padding: 0;
+	margin: 0 0 6px 0;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+	color: #050d18;
+  }
+  
+  .skills .progress .skill .val {
+	float: right;
+	font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+	background: #dce8f8;
+	height: 10px;
+  }
+  
+  .skills .progress-bar {
+	width: 1px;
+	height: 10px;
+	transition: .9s;
+	background-color: #4e6358;
+  }
 
 /*
     Auther: Abdelrhman Said
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+html * {cursor:none}
 
 
 .social-wrapper {
@@ -221,6 +307,14 @@ h6 { font-size: 16px; }
 	height: auto;
 	clear: both;
 	float: left;
+}
+.shane_tm_section .shane_tm_business_video .content .container h3{
+	color: #9e9a9a;
+	font-size: 20px;
+}
+
+.shane_tm_section .shane_tm_business_video .content .container p{
+	color: rgb(255, 255, 255);
 }
 
 #preloader {
