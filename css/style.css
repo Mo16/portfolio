@@ -1129,12 +1129,12 @@ body.loaded .overlay_effect:after{
 	padding-top: 27px;
 	float: left;
 }
-/* .tokyo_progress{
+.tokyo_progress{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
-} */
+}
 .progress_inner{
 	width:100%;
 	margin-bottom:34px;
